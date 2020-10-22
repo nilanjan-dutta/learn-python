@@ -106,8 +106,8 @@ def print_board(cells: list = []):
         return
 
     def print_rows(rows: list):
-        print("--- \t\t --- \t\t ---")
-        print("  \t|\t ".join(rows))
+        print("-- --- --")
+        print(" | ".join(rows))
 
     for row in board_list:
         print_rows(row)
