@@ -6,8 +6,8 @@ board_list = [['1', '2', '3'], ['4', '5', '6'], ['7', '8', '9']]
 
 def welcome_players():
     print("Welcome to the Tic Tac Toe Game for 2 players ! \n")
-    print("Player one plays with: X")
-    print("Player one plays with: O \n")
+    print("Player One plays with: X")
+    print("Player Two plays with: O \n")
     is_game_over = start_game()
     if is_game_over:
         repeat_confirmation = input(
