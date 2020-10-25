@@ -118,5 +118,5 @@ def clear_screen():
     if name == 'nt':
         _ = system('cls')
 
-
-welcome_players()
+if __name__ == '__main__':
+    welcome_players()
